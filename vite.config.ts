@@ -7,14 +7,6 @@ export default defineConfig({
   build: {
     target: 'esnext',
     minify: false,
-    cssCodeSplit: false,
-    rollupOptions: {
-      input: resolve(__dirname, 'src/main.tsx'),
-      output: {
-        format: 'es',
-        entryFileNames: 'mf-appointments.js',
-        assetFileNames: 'mf-appointments.[ext]',
-      },
-    },
-  },
+    cssCodeSplit: false
+  }
 });

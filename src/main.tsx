@@ -5,9 +5,9 @@ import r2wc from "@r2wc/react-to-web-component";
 
 const mfName = import.meta.env.VITE_MF_NAME;
 
-if (!customElements.get("mf-appointments")) {
+if (!customElements.get(mfName)) {
   customElements.define(
-    "mf-appointments",
+    mfName,
     r2wc(App, {
       props: {
         documentType: "string",
