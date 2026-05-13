@@ -1,0 +1,28 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "hello": {
+    "badge": "Keralty MS Template",
+    "service": "Service",
+    "version": "Version",
+    "welcomeRequired": "Welcome message is required"
+  },
+  "token": {
+    "memberIdLabel": "Member number",
+    "memberIdPlaceholder": "Enter your member number",
+    "tokenLabel": "Token",
+    "tokenPlaceholder": "Enter your token",
+    "submit": "Validate"
+  },
+  "appointment": {
+    "badge": "Keralty · Medical Appointments",
+    "loading": "Loading appointments...",
+    "scheduled": "Scheduled appointments",
+    "empty": "No scheduled appointments"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "accept": "Aceptar",
+    "cancel": "Cancelar",
+    "back": "Volver"
+  },
+  "hello": {
+    "badge": "Keralty MS Template",
+    "service": "Servicio",
+    "version": "Versión",
+    "welcomeRequired": "El mensaje de bienvenida es requerido"
+  },
+  "token": {
+    "memberIdLabel": "Número de afiliado",
+    "memberIdPlaceholder": "Ingrese su número de afiliado",
+    "tokenLabel": "Token",
+    "tokenPlaceholder": "Ingrese su token",
+    "submit": "Validar"
+  },
+  "appointment": {
+    "badge": "Keralty · Citas Médicas",
+    "loading": "Cargando citas...",
+    "scheduled": "Citas agendadas",
+    "empty": "No hay citas agendadas",
+    "error": "Ocurrió un error al obtener la URL de citas"
+  }
+}

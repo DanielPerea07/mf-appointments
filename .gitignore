@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+coverage/
+logs/
+
+# Entornos locales — NUNCA subir al repositorio
+.env
+.env.*
+!.env.example
+
+# TypeScript generados
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# .DS_Store
+Thumbs.db
+
+# Vite
+vite.config.js
+vitest.config.js
+
+.vercel
