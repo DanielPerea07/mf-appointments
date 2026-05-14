@@ -16,7 +16,7 @@ COPY src/ ./src
 ARG VITE_API_BASE_URL
 ENV VITE_API_BASE_URL=${VITE_API_BASE_URL}
 
-ARG VITE_MF_NAME=mf-template
+ARG VITE_MF_NAME=mf-appointments
 ENV VITE_MF_NAME=${VITE_MF_NAME}
 
 RUN pnpm run build

@@ -29,10 +29,13 @@ export const AppointmentsIframe = ({
   }
 
   return (
+    <div className={styles.wrapper}>
     <iframe
       className={styles.iframe}
       src={iframeUrl}
       title={t("appointment.scheduled")}
     />
+    </div>
+    
   );
 };
